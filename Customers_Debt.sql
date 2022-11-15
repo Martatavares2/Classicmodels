@@ -1,4 +1,5 @@
-
+--The objective of this query is to calculate how much every customer owe. For that we must calculate the total billing and the total amount paid separatly
+--and then subtracte the values.
 
 SELECT f.customerNumber, f.customerName, Total_billing, Total_paid, Total_billing-Total_paid as Debt
 FROM
